@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #05192a;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+.conteiner-cabecalho {
+    text-align: center;
+    padding: 20px;
+    background-color: #04233F;
+}
+
+.conteiner-cabecalho img {
+    max-width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+.conteiner-cabecalho h3 {
+    font-weight: 600;
+    font-size: 2em;
+    color: #1190ff;
+}
+
+/* Navegação */
+.conteiner-navegacao {
+    text-align: center;
+    padding: 15px;
+    background-color: #06345d;
+}
+
+.conteiner-navegacao a {
+    font-size: 1.2em;
+    margin: 0 30px;
+    text-decoration: none;
+    color: #7cc2ff;
+    transition: 0.3s;
+}
+
+.conteiner-navegacao a:hover {
+    color: #ffffff;
+}
+
+/* Quem sou */
+.conteiner-quem-sou {
+    padding: 40px 0;
+}
+
+.conteiner-quem-sou .servico {
+    max-width: 800px;
+    margin: auto;
+    background-color: #061f35;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.conteiner-quem-sou .icone {
+    max-width: 250px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.conteiner-quem-sou .servico-texto {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    color: #81c4ff;
+    text-align: justify;
+}
+
+/* Links para serviços e contatos */
+.conteiner-links {
+    text-align: center;
+    padding: 30px;
+}
+
+.btn-link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #1190ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-link:hover {
+    background-color: #0a6fc2;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #04233F;
+    font-size: 0.9em;
+}
