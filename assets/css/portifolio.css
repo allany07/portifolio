@@ -29,6 +29,9 @@ body {
     font-size: 2em;
     color: #1190ff;
 }
+.text-center{
+    text-align: center;
+}
 
 /* Navegação */
 .conteiner-navegacao {
@@ -98,6 +101,66 @@ body {
     background-color: #0a6fc2;
 }
 
+.conteiner-servicos{
+    background-color: #05192a;
+    font-size: 1.1em;
+    padding: 60px;
+    overflow: auto;
+}
+
+.conteiner-servicos h1{
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.conteiner-servicos h3{
+    color: #2097ff;
+    padding: 20px 0;
+}
+
+.conteiner-servicos article{
+    width: 40%;
+    margin: auto;
+    float: center;
+}
+
+.conteiner-servicos li{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: white;
+}
+.conteiner-contatos{
+    background-color:#05192a;
+    padding: 80px;
+}
+
+.conteiner-contatos h1{
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.conteiner-contatos h3{
+    font-size: 1.5em;
+    font-weight: 100;
+    width: 40%;
+    margin: auto;
+    color: white;
+    margin-bottom: 20px;
+    border: 1px solid #105088;
+    background-color: #08253f;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.conteiner-contatos .contatos{
+    display: block;
+    font-size: 2em;
+    text-decoration: none;
+    color: #00a2ff;
+    margin-bottom: 20px;
+}
 /* Rodapé */
 footer {
     text-align: center;
